@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-mini {
+  @apply flex
+  w-[1011px]
+  mt-[20px]
+  md:mt-[50px] 
+  lg:mt-[78px];
+}

@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./tailwind/style/output.css" />
+    <link rel="stylesheet" href="./assets/css/custom.css" />
+    <title>Women Now</title>
+  </head>
+  <body>
+    <!-- warpper -->
+    <div
+      class="container 2xl:max-w-[1440px] mx-auto py-[20px] lg:py-[50px] 2xl:px-[120px] px-[10px] lg:px-[60px] shadow-xl overflow-x-hidden"
+    >
+      <!-- header -->
+      <header
+        class="flex flex-row lg:flex-row md:flex-col xl:gap-[122px] gap-[20px] justify-between items-center text-[15px] md:text-[20px]"
+      >
+        <!-- logo -->
+        <a href="" class="z-50"
+          ><img srcset="./assets/img/logo.png 2x" alt=""
+        /></a>
+        <!-- menu -->
+        <ul
+          id="menu"
+          class="flex hidden md:flex md:flex-row flex-col fixed md:static md:bg-transparent bg-black bg-opacity-70 text-[20px] text-white md:text-black top-0 right-0 bottom-0 left-0 justify-center md:items-start md:justify-start md:h-auto items-center z-40 h-screen gap-[20px] xl:gap-[38px]"
+        >
+          <li
+            class="flex items-center gap-[5px] cursor-pointer hover:text-primary transition-all"
+          >
+            Who We Are
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5 text-primary"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </li>
+          <li
+            class="flex items-center gap-[5px] cursor-pointer hover:text-primary transition-all"
+          >
+            <a href="">Events</a>
+          </li>
+          <li
+            class="flex items-center gap-[5px] cursor-pointer hover:text-primary transition-all"
+          >
+            Resources
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5 text-primary"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </li>
+          <li
+            class="flex items-center gap-[5px] cursor-pointer hover:text-primary transition-all"
+          >
+            <a href="">News and Stories</a>
+          </li>
+          <li
+            class="block md:hidden flex items-center gap-[5px] cursor-pointer hover:text-primary transition-all"
+          >
+            <a
+              href=""
+              class="py-[10px] px-[30px] text-white bg-primary rounded-[16px] flex items-center hover:bg-opacity-90 transition-all"
+              >Donate now</a
+            >
+          </li>
+        </ul>
+        <!-- btn -->
+        <a
+          href=""
+          class="py-[10px] px-[30px] text-white bg-primary rounded-[16px] flex items-center hover:bg-opacity-90 transition-all hidden md:block"
+          >Donate now</a
+        >
+        <!-- btn-menu -->
+        <div class="z-50 md:hidden">
+          <svg
+            id="btn_menu"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </div>
+      </header>
+
+      <!-- banner -->
+      <section class="flex flex-col items-center mt-[27px]">
+        <!-- title  -->
+        <h1
+          class="md:text-[47px] md:px-[40px] lg:text-[67px] lg:px-[80px] font-semibold md:leading-[47px] lg:leading-[89px] text-center md:[700px] lg:w-[1049px]"
+        >
+          We are the global champion for gender equality.
+        </h1>
+        <!-- background  -->
+        <img alt="" srcset="./assets/img/vt_banner.png 2x" class="mt-[44px]" />
+        <!-- navbar  -->
+        <nav
+          class="xl:w-[1200px] w-full flex justify-between bg-minor xl:py-[35px] xl:px-[54px] md:p-[20px] p-[10px] gap-[10px] md:gap-0"
+        >
+          <a
+            href=""
+            class="text-[15px] flex xl:gap-[12px] xl:text-[20px] md:gap-[5px] md:text-[15px] font-semibold"
+            >MEDIA ADVISORY
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="hidden w-6 h-6 md:block"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </a>
+          <a
+            href=""
+            class="text-[15px] flex xl:gap-[12px] xl:text-[20px] md:gap-[5px] md:text-[15px] font-semibold"
+            >TOP STORIES
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="hidden w-6 h-6 md:block"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </a>
+          <a
+            href=""
+            class="text-[15px] flex xl:gap-[12px] xl:text-[20px] md:gap-[5px] md:text-[15px] font-semibold"
+            >KNOW THE ISSUE
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="hidden w-6 h-6 md:block"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </a>
+          <a
+            href=""
+            class="text-[15px] flex xl:gap-[12px] xl:text-[20px] md:gap-[5px] md:text-[15px] font-semibold"
+            >LATEST NEWS FROM CSW66
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="hidden w-6 h-6 md:block"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </a>
+        </nav>
+        <!-- desc  -->
+        <p
+          class="lg:w-[1011px] lg:text-[30px] font-semibold lg:leading-[46px] md:text-[20px] md:leading-[30px] text-center mt-[44px]"
+        >
+          Women is the United Nations entity dedicated to gender equality and
+          the empowerment of women. A global champion for women and girls, UN
+          Women was established.
+        </p>
+      </section>
+
+      <!-- tag -->
+      <section
+        class="md:px-[20px] lg:px-0 section-mini md:flex-row flex-col md:gap-[30px] lg:gap-[66px] mx-auto w-full px-[10px]"
+      >
+        <!-- tag-item -->
+        <div class="md:text-[15px] lg:w-auto flex flex-col gap-[26px]">
+          <!-- icon -->
+          <div class="py-[16px] px-[16px] bg-minor self-start">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6 text-primary"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"
+              />
+            </svg>
+          </div>
+          <!-- title -->
+          <h2 class="text-[20px] max-w-sm md:max-w-none">
+            Women lead, participate in and benefit equally from governance
+            systems
+          </h2>
+        </div>
+        <!-- tag-item -->
+        <div class="md:text-[15px] lg:w-auto flex flex-col gap-[26px]">
+          <!-- icon -->
+          <div class="py-[16px] px-[16px] bg-minor self-start">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6 text-primary"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"
+              />
+              <path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z" />
+            </svg>
+          </div>
+          <!-- title -->
+          <h2 class="text-[20px] max-w-sm md:max-w-none">
+            Women have income security, decent work and economic autonomy
+          </h2>
+        </div>
+        <!-- tag-item -->
+        <div class="md:text-[15px] lg:w-auto flex flex-col gap-[26px]">
+          <!-- icon -->
+          <div class="py-[16px] px-[16px] bg-minor self-start">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6 text-primary"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              />
+            </svg>
+          </div>
+          <!-- title -->
+          <h2 class="text-[20px] max-w-sm md:max-w-none">
+            All women and girls live a life free from all forms of violence
+            greater influence
+          </h2>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section
+        class="flex-col md:flex-row mx-auto md:w-full md:px-[20px] section-mini"
+      >
+        <!-- img -->
+        <div class="md:flex md:justify-center md:items-center">
+          <img srcset="./assets/img/vt_child_1.png 2x" alt="" />
+        </div>
+        <!-- text + btn -->
+        <div class="md:w-2/3 md:ml-[80px]">
+          <p
+            class="lg:text-[20px] md:text-[15px] md:text-start max-w-sm md:max-w-none"
+          >
+            Gender equality is not only a basic human right, but its achievement
+            has enormous socio-economic ramifications. Empowering women fuels
+            thriving economies, spurring productivity and growth. Yet gender
+            inequalities remain deeply entrenched in every society. Women lack
+            access to decent work and face occupational segregation and gender
+            wage gaps. Women in all parts of the world suffer violence and
+            discrimination. They are under-represented in political and economic
+            decision-making processes.
+          </p>
+          <a
+            href=""
+            class="flex gap-[10px] lg:text-[30px] md:text-[20px] font-semibold mt-[21px]"
+            >About more <i class="text-[20px] ri-arrow-right-line"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- support -->
+      <section
+        class="flex flex-col p-[10px] md:p-[30px] lg:py-[77px] lg:px-[90px] bg-minor md:mt-[78px] relative max-w-sm md:max-w-none mx-auto md:mx-0"
+      >
+        <!-- tag -->
+        <i
+          class="hidden md:block absolute md:text-[50px] xl:text-[100px] -rotate-180 xl:right-[40px] xl:top-[70px] md:right-5 md:top-5 ri-double-quotes-r"
+        ></i>
+        <!-- heading + text -->
+        <div class="flex flex-col md:flex-row">
+          <h1
+            class="md:text-[30px] xl:text-[58px] font-semibold xl:leading-[73px] md:leading-[30px] w-1/2"
+          >
+            To support inter governmental bodies
+          </h1>
+          <p
+            class="md:w-1/2 md:text-[15px] xl:text-[20px] md:mt-[75px] xl:mt-[150px] mt-[20px]"
+          >
+            For many years, the United Nations faced serious challenges in its
+            efforts to promote gender equality globally, including inadequate
+            funding and no single recognized driver to direct UN activities on
+            gender equality issues. In July 2010, the United Nations General
+            Assembly created UN Women, the United Nations Entity for Gender
+            Equality and the Empowerment of Women, to address such challenges.
+          </p>
+        </div>
+        <!-- desc -->
+        <div
+          class="flex flex-row mt-[20px] lg:mt-[50px] text-[15px] gap-[10px] md:gap-0 md:text-[20px] font-semibold"
+        >
+          <p class="md:w-1/2">Work on gender equality</p>
+          <a href="" class="flex flex-row items-center w-1/2 gap-[20px]">
+            <i class="ri-earth-line text-[28px] lg:text-[48px]"></i> Support us
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- support brand -->
+      <section
+        class="flex-col items-center mx-auto section-mini w-full lg:w-auto md:px-[20px] lg:px-0 max-w-sm md:max-w-none mx-auto md:mx-0"
+      >
+        <!-- heading -->
+        <h1 class="lg:text-[46px] md:text-[30px] font-semibold">
+          Supported by
+        </h1>
+        <!-- brand -->
+        <div
+          class="flex flex-row gap-[60px] items-center lg:mt-[50px] md:mt-[20px] overflow-x-auto scrollbar-hide"
+        >
+          <img srcset="./assets/img/mini_logo_1.png 2x" alt="" />
+          <img srcset="./assets/img/mini_logo_2.png 2x" alt="" />
+          <img srcset="./assets/img/mini_logo_3.png 2x" alt="" />
+          <img srcset="./assets/img/mini_logo_4.png 2x" alt="" />
+          <img srcset="./assets/img/mini_logo_5.png 2x" alt="" />
+        </div>
+        <!-- text + img  -->
+        <div
+          class="flex md:flex-row flex-col md:items-center mt-[0px] md:mt-[50px] lg:mt-[100px]"
+        >
+          <!-- text -->
+          <div class="md:w-1/2 flex flex-col lg:gap-[40px] gap-[20px]">
+            <p class="lg:text-[20px] text-[15px]">
+              For many years, the United Nations
+            </p>
+            <h1
+              class="lg:text-[30px] text-[20px] font-semibold leading-[30px] lg:leading-[46px]"
+            >
+              Women is the United Nations entity dedicated to gender equality
+              and the empowerment of women.
+            </h1>
+            <!-- check -->
+            <div class="flex flex-col gap-[15px] lg:text-[20px] text-[15px]">
+              <span class="flex gap-[20px]"
+                ><i
+                  class="md:text-[20px] lg:text-[30px] text-primary font-semibold ri-check-line"
+                ></i>
+                Support inter-governmental bodies</span
+              >
+              <span class="flex gap-[20px]"
+                ><i
+                  class="md:text-[20px] lg:text-[30px] text-primary font-semibold ri-check-line"
+                ></i>
+                Technical and financial support</span
+              >
+              <span class="flex gap-[20px]"
+                ><i
+                  class="md:text-[20px] lg:text-[30px] text-primary font-semibold ri-check-line"
+                ></i>
+                lead and coordinate the UN system</span
+              >
+            </div>
+            <!-- btn -->
+            <a
+              href=""
+              class="flex gap-[5px] lg:text-[20px] md:text-[15px] font-semibold"
+              ><p class="">Support us</p>
+              <i class="ri-arrow-right-line"></i
+            ></a>
+          </div>
+          <!-- img  -->
+          <div class="flex justify-end md:w-1/2">
+            <img alt="" srcset="./assets/img/vt_child_2.png 2x" />
+          </div>
+        </div>
+      </section>
+
+      <!-- training -->
+      <section
+        class="flex-col w-full max-w-sm section-mini md:max-w-none mt-[20px] md:mt-0"
+      >
+        <h1
+          class="xl:text-[46px] md:text-[30px] md:leading-[30px] md:text-center max-w-[768px] font-semibold xl:leading-[46px]"
+        >
+          International Research and Training Institute for the Advancement of
+          Women
+        </h1>
+        <div
+          class="gap-[10px] md:gap-0 md:mt-[50px] md:px-[20px] lg:px-0 w-full flex flex-col md:flex-row items-center"
+        >
+          <img
+            srcset="./assets/img/vt_child_3.png 2x"
+            alt=""
+            class="xl:w-1/3 md:w-1/3"
+          />
+          <div class="flex flex-col xl:w-1/3 md:w-2/3">
+            <a href="" class="text-[20px] font-semibold"
+              >Work on gender equality <i class="ri-arrow-right-line"></i
+            ></a>
+            <p
+              class="md:mt-[80px] md:text-[15px] xl:text-[20px] max-w-[410px] lg:max-w-[440px]"
+            >
+              For many years, the United Nations faced serious challenges in its
+              efforts to promote gender equality globally, including inadequate
+              funding and no single recognized driver to direct UN activities
+            </p>
+          </div>
+          <img
+            srcset="./assets/img/vt_child_4.png 2x"
+            alt=""
+            class="xl:w-1/3 md:w-1/2 md:hidden xl:block"
+          />
+        </div>
+      </section>
+
+      <!-- numbers -->
+      <section
+        class="md:px-[20px] lg:px-0 section-mini flex-col md:gap-[30px] lg:gap-[66px] mx-auto md:w-full max-w-sm md:max-w-none"
+      >
+        <h1
+          class="lg:text-[46px] text-[30px] md:text-center lg:text-left font-semibold lg:w-1/3 lg:leading-[46px]"
+        >
+          Our impact in numbers
+        </h1>
+        <div class="flex flex-col md:flex-row gap-[20px] md:gap-[100px]">
+          <!-- tag-item -->
+          <div class="flex flex-col lg:gap-[26px] md:gap-[16px]">
+            <!-- icon -->
+            <h1 class="lg:text-[46px] text-[30px] font-semibold">571,000</h1>
+            <!-- title -->
+            <h2 class="md:text-[15px] lg:text-[20px]">
+              Women and girls received lifesaving humanitarian support.
+            </h2>
+          </div>
+          <!-- tag-item -->
+          <div class="flex flex-col lg:gap-[26px] md:gap-[16px]">
+            <!-- icon -->
+            <h1 class="lg:text-[46px] text-[30px] font-semibold">101,000</h1>
+            <!-- title -->
+            <h2 class="md:text-[15px] lg:text-[20px]">
+              Women’s organizations supported to mitigate the impact of
+              COVID-19.
+            </h2>
+          </div>
+          <!-- tag-item -->
+          <div class="flex flex-col lg:gap-[26px] md:gap-[16px]">
+            <!-- icon -->
+            <h1 class="lg:text-[46px] text-[30px] font-semibold">98,700</h1>
+            <!-- title -->
+            <h2 class="md:text-[15px] lg:text-[20px]">
+              Gender-based violence survivors accessed justice and recovery
+              services.
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section
+        class="xl:flex-row flex-col items-center section-mini gap-[40px] xl:gap-[140px] mx-auto px-[20px] xl:px-0 max-w-sm md:max-w-none"
+      >
+        <div class="xl:w-1/2 w-full flex flex-col gap-[20px] xl:gap-[40px]">
+          <h1 class="text-[30px] xl:text-[46px] font-semibold leading-[46px]">
+            Make An Impact
+          </h1>
+          <a
+            href=""
+            class="text-[20px] xl:text-[30px] font-semibold text-primary"
+            >Donate now <i class="ri-arrow-right-line"></i
+          ></a>
+          <div class="text-[15px] xl:text-[20px] xl:mt-[40px]">
+            <p>Main Office</p>
+            <p>7th Floor</p>
+            <p>San Francisco, CA 94102</p>
+            <p>415.248.4800</p>
+            <p>900 Market Street</p>
+          </div>
+        </div>
+        <div class="xl:w-1/2 w-full flex flex-col gap-[20px] xl:gap-[40px]">
+          <h1 class="text-[30px] xl:text-[46px] font-semibold leading-[46px]">
+            Frequently Asked Questions
+          </h1>
+          <form action="">
+            <div class="flex flex-col gap-[12px]">
+              <input
+                type="text"
+                placeholder="Your Name"
+                required
+                class="py-[8px] px-[16px] border border-primary rounded-[8px] md:w-[400px] xl:w-full outline-none"
+              />
+              <input
+                type="email"
+                placeholder="Email Address"
+                required
+                class="py-[8px] px-[16px] border border-primary rounded-[8px] md:w-[400px] xl:w-full outline-none"
+              />
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              class="mt-[40px] text-[20px] font-semibold cursor-pointer"
+            />
+          </form>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <section
+        class="mx-auto md:flex-row flex-col section-mini px-[20px] lg:px-0 max-w-sm md:max-w-none"
+      >
+        <div
+          class="flex flex-col w-full lg:flex-row gap-[30px] lg:gap-[63px] mx-auto"
+        >
+          <div class="">
+            <img alt="" srcset="./assets/img/logo.png 2x" />
+          </div>
+          <div class="flex flex-row md:gap-[10px] lowercase text-[12px]">
+            <p>INFORMATION SECURITY</p>
+            <p>PRIVACY POLICY</p>
+            <p>REPORT WRONGDOING</p>
+            <p>TERMS OF USE</p>
+          </div>
+          <div class="text-[33px] flex flex-row gap-[23px] text-primary">
+            <span><i class="ri-facebook-box-fill"></i></span>
+            <span><i class="ri-twitter-fill"></i></span>
+            <span><i class="ri-instagram-line"></i></span>
+            <span><i class="ri-rocket-line"></i></span>
+            <span><i class="ri-wifi-fill"></i></span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="flex-col xl:flex-row mx-auto w-full justify-between section-mini text-[20px] px-[20px] xl:px-0"
+      >
+        <ul class="flex flex-col gap-[23px]">
+          <li>Get involved</li>
+          <li>News and stories</li>
+          <li>Resources</li>
+          <li>What we do</li>
+          <li>Where we are</li>
+        </ul>
+        <ul class="flex flex-col gap-[23px]">
+          <li>Partnerships</li>
+          <li>Employment</li>
+          <li>Procurement</li>
+          <li>Contact us</li>
+        </ul>
+        <ul class="flex flex-col gap-[23px]">
+          <li>Commission</li>
+          <li>Status of Women</li>
+          <li>Executive Board</li>
+        </ul>
+        <ul class="flex flex-col gap-[23px]">
+          <li>
+            <b>Geneva Office</b>
+            <br />
+            Rue de Varembé 1,<br />
+            Case Postale 28 <br />
+            1211 Geneva 20 <br />
+            Switzerland
+          </li>
+          <li>
+            <b>Telephone (0)</b>
+            <br />
+            22 919 70 80
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="./assets/javascript/main.js"></script>
+  </body>
+</html>
